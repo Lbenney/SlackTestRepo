@@ -3,7 +3,7 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content jcr:primaryType="nt:unstructured">
         <metadata
-            fmg:Category="business-tax"
+            fmg:Category="business-Derp"
             jcr:primaryType="nt:unstructured"
             default="repayments"/>
     </jcr:content>
