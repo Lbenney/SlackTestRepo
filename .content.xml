@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fmg="http://www.adobe.com/lc/formsmanager" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <metadata
+            fmg:Category="business-tax"
+            jcr:primaryType="nt:unstructured"
+            default="repayments"/>
+    </jcr:content>
+    <items jcr:primaryType="nt:unstructured">
+        <tabs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/container">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+                type="nav"/>
+            <items jcr:primaryType="nt:unstructured">
+                <tab1
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Basic"
+                    sling:resourceType="granite/ui/components/foundation/section"
+                    listOrder="0"
+                    tabid="f84cc8d6-60ab-474e-bdf8-a0b7a434f289">
+                    <items jcr:primaryType="nt:unstructured">
+                        <col1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="0"/>
+                        <col2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="1"/>
+                        <col3
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="2"/>
+                    </items>
+                </tab1>
+                <tab2
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Form Model"
+                    sling:resourceType="granite/ui/components/foundation/section"
+                    listOrder="1"
+                    tabid="fd782b72-94dc-4361-8657-c888e77ec4da">
+                    <items jcr:primaryType="nt:unstructured">
+                        <col1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="0"/>
+                        <col2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="1"/>
+                        <col3
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="2"/>
+                    </items>
+                </tab2>
+                <tab3
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Advanced"
+                    sling:resourceType="granite/ui/components/foundation/section"
+                    listOrder="2"
+                    tabid="7c927721-1473-492f-b949-4fa2f82a32a0">
+                    <items jcr:primaryType="nt:unstructured">
+                        <col1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="0"/>
+                        <col2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="1"/>
+                        <col3
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="2"/>
+                    </items>
+                </tab3>
+                <tab4
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="HMRC"
+                    sling:resourceType="granite/ui/components/foundation/section"
+                    listOrder="3"
+                    tabid="f198efbb-b3e3-490c-823c-48f86a5fd937">
+                    <items jcr:primaryType="nt:unstructured">
+                        <col1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="0"/>
+                        <col2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="1">
+                            <items jcr:primaryType="nt:unstructured">
+                                <_x0031_446492698625
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/select"
+                                    fieldLabel="Category"
+                                    metaType="dropdown"
+                                    name="./jcr:content/metadata/fmg:Category"
+                                    renderReadOnly="true">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <_x0031_446492709434
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Business Tax"
+                                            value="business-tax"/>
+                                        <_x0031_446492745706
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Child Benefit"
+                                            value="child-benefit"/>
+                                        <_x0031_446492890634
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Counstruction Industry Scheme"
+                                            value="construction-industry-scheme"/>
+                                        <_x0031_446492923969
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Counter Avoidance"
+                                            value="counter-avoidance"/>
+                                        <_x0031_446492938966
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Debt Managament and Banking"
+                                            value="debt-managament-and-banking"/>
+                                        <_x0031_446492962070
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Non Resident Landlords"
+                                            value="non-resident-landlords"/>
+                                        <_x0031_446492982347
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Pensions"
+                                            value="pensions"/>
+                                        <_x0031_446492995145
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Personal Tax"
+                                            value="personal-tax"/>
+                                        <_x0031_446493013364
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Repayments"
+                                            value="repayments"/>
+                                        <_x0031_446499205767
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Business Logistics"
+                                            value="business-logistics"/>
+                                        <_x0031_446499207734
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Fixed Protection"
+                                            value="fixed-protection"/>
+                                    </items>
+                                </_x0031_446492698625>
+                                <_x0031_417780335748
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                    fieldLabel="Form id"
+                                    metaType="text"
+                                    name="./jcr:content/metadata/fmg:form_id"
+                                    renderReadOnly="true"
+                                    showEmptyInReadOnly="true"/>
+                                <_x0031_426506207063
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                    data-title="Enter version number"
+                                    fieldLabel="Version"
+                                    metaType="text"
+                                    name="./jcr:content/metadata/fmg:version"
+                                    renderReadOnly="true"
+                                    showEmptyInReadOnly="true"/>
+                            </items>
+                        </col2>
+                        <col3
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="2">
+                            <items jcr:primaryType="nt:unstructured">
+                                <_x0031_417780311101
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                    fieldLabel="Classification type"
+                                    metaType="text"
+                                    name="./jcr:content/metadata/fmg:classification_type"
+                                    renderReadOnly="true"
+                                    showEmptyInReadOnly="true"/>
+                                <_x0031_417780329100
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                    fieldLabel="Business area"
+                                    metaType="text"
+                                    name="./jcr:content/metadata/fmg:business_area"
+                                    renderReadOnly="true"
+                                    showEmptyInReadOnly="true"/>
+                                <_x0031_420544339327
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                    data-title="Enter the key to an analytics service."
+                                    fieldLabel="Analytics"
+                                    metaType="text"
+                                    name="./jcr:content/metadata/fmg:analytickey"
+                                    renderReadOnly="true"
+                                    showEmptyInReadOnly="true"/>
+                            </items>
+                        </col3>
+                    </items>
+                </tab4>
+                <tab5
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Email XPATH"
+                    sling:resourceType="granite/ui/components/foundation/section"
+                    listOrder="4"
+                    tabid="b93bcd93-9366-41c2-8b34-8bee29dd38ff">
+                    <items jcr:primaryType="nt:unstructured">
+                        <col1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="0"/>
+                        <col2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="1">
+                            <items jcr:primaryType="nt:unstructured">
+                                <_x0031_446492493602
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                    fieldLabel="customerEmail"
+                                    metaType="text"
+                                    name="./jcr:content/metadata/fmg:customerEmailXpath"
+                                    renderReadOnly="true"/>
+                                <_x0031_446492525611
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                    fieldLabel="customerFirstName"
+                                    metaType="text"
+                                    name="./jcr:content/metadata/fmg:customerFirstNameXpath"
+                                    renderReadOnly="true"/>
+                                <_x0031_446492555027
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                    fieldLabel="customerSurname"
+                                    metaType="text"
+                                    name="./jcr:content/metadata/fmg:customerSurnameXPath"
+                                    renderReadOnly="true"/>
+                            </items>
+                        </col2>
+                        <col3
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/container"
+                            listOrder="2"/>
+                    </items>
+                </tab5>
+            </items>
+        </tabs>
+    </items>
+</jcr:root>
